@@ -1,0 +1,13 @@
+{
+    "name": "tripeaks",
+    "version": "1.0.0",
+    "description": "a card game called tripeaks",
+    "author": "jinze.zheng",
+    "licence": "MIT",
+    "devDependencies": {
+        "babel": "latest",
+        "eslint": "latest",
+        "webpack": "latest",
+        "webpack-dev-server": "latest",
+    }
+}
