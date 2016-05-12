@@ -3,11 +3,29 @@
     "version": "1.0.0",
     "description": "a card game called tripeaks",
     "author": "jinze.zheng",
-    "licence": "MIT",
+    "repository": "https://github.com/sysuzjz/card",
+    "license": "MIT",
+    "scripts": {
+        "dev-server": "webpack-dev-server --hot --inline --progress --colors --port 8080",
+        "build": "webpack --progress --profile --colors"
+      },
     "devDependencies": {
         "babel": "latest",
+        "babel-loader": "latest",
+        "css-loader": "latest",
         "eslint": "latest",
+        "expose": "latest",
+        "history": "latest",
+        "jquery": "latest",
+        "jsx-loader": "latest",
+        "less-loader": "latest",
+        "react": "latest",
+        "react-dom": "latest",
+        "react-hot-loader": "latest",
+        "react-router": "latest",
+        "style-loader": "latest",
+        "url-loader": "latest",
         "webpack": "latest",
-        "webpack-dev-server": "latest",
+        "webpack-dev-server": "latest"
     }
 }
